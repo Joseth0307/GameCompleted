@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://l6ytkaf7ts1u"]
+
+[ext_resource type="Texture2D" uid="uid://gokdglmwuso3" path="res://assets/sprites/platforms.png" id="1_rx2xi"]
+
+[node name="platformforestVACIA" type="AnimatableBody2D"]
+
+[node name="Platforms" type="Sprite2D" parent="."]
+position = Vector2(-2, -4)
+texture = ExtResource("1_rx2xi")
+region_enabled = true
+region_rect = Rect2(16, 1, 32, 8)

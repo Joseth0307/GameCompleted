@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://d2nnhamjkrh55"]
+
+[ext_resource type="Texture2D" uid="uid://cvhom6lggpge7" path="res://Archivos generales/flecha-hacia-abajo.png" id="1_mkblo"]
+
+[node name="Flecha negra abajo" type="AnimatableBody2D"]
+
+[node name="Flecha-hacia-abajo" type="Sprite2D" parent="."]
+position = Vector2(9.53674e-07, 0.999999)
+scale = Vector2(0.0341797, 0.0439453)
+texture = ExtResource("1_mkblo")

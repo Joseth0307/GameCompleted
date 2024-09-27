@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cgwqn4rhfkqqe"]
+
+[ext_resource type="Texture2D" uid="uid://dcd7vyspv8rnx" path="res://assets/sprites/knight.png" id="1_km41b"]
+
+[node name="Knight" type="Sprite2D"]
+position = Vector2(69, 122)
+texture = ExtResource("1_km41b")
+region_enabled = true
+region_rect = Rect2(133.5, 225.5, 65, 33)
